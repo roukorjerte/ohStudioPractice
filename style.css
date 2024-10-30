@@ -1,0 +1,184 @@
+body{
+    margin: 0px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100px;
+}
+
+.head-container{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e8e5e480;
+    border-radius: 25px;
+}
+
+.head-item{
+    padding: 8px 14px;
+    margin: 3px;
+    border-radius: 23px;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.head-item a{
+    margin: 5px;
+    color: black;
+    text-decoration: none;
+}
+
+.hero{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.expertise{
+    display: flex;
+}
+
+#big-text{
+    width: 40%;
+    text-align: center;
+    margin: 0px;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: 600;
+    margin: 10px 0px;
+}
+
+.expertise{
+    margin: 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.small-text{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.item{
+    background-color: #e8e5e480;
+    border-radius: 15px;
+    margin: 5px;
+}
+
+.item p{
+    margin: 7px;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+#expertise{
+    background-color: transparent;
+}
+
+.main-container{
+    display: flex;
+    justify-content: center;
+}
+
+.imagebox{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.link-image {
+    flex: 50%;
+    overflow: hidden; 
+    margin-bottom: 10px;
+}
+
+.link-image img {
+    width: 97%; 
+    height: 97%;
+    border-radius: 10px;
+    object-fit: cover; 
+    object-position: center;
+}
+
+.bottom-container{
+    display: flex;
+    justify-content: center;
+}
+
+.lets-work{
+    height: 50vh ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    font-size: 30px;
+    margin: 0px;
+    font-weight: 500;
+}
+
+h3{
+    font-size: 30px;
+    margin: 0px;
+    font-weight: 500;
+    color: grey;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: center;
+    height: 80px;
+}
+
+footer{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer *{
+    color: black;
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: 500;
+}
+
+footer a{
+    justify-self: right;
+}
+
+footer img{
+    height: 15px;
+    margin: 0px;
+}
+
+#trademark{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#link-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#link-container a{
+    margin: 0px 5px;
+}
+
+#link-container a:hover{
+    color: gray;
+}
